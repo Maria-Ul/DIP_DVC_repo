@@ -5,5 +5,5 @@ stages:
       --weights yolov5n.pt
     outs:
     - path: new_timing_info.json
-      md5: af9e0f09925826f5d8eac7c362bd050f
-      size: 201
+      md5: 6527c25ede96c8c471dc427d8cc7521e
+      size: 202
