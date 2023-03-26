@@ -4,3 +4,7 @@ stages:
       --weights yolov5n.pt
     metrics:
     - new_timing_info.json
+  detect:
+    cmd: python detect_new.py --weights  best.pt --source /content/drive/MyDrive/DPI/face_data
+    metrics:
+    - detect_info.json
