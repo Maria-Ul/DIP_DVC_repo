@@ -7,3 +7,9 @@ stages:
     - path: new_timing_info.json
       md5: af9e0f09925826f5d8eac7c362bd050f
       size: 201
+  detect:
+    cmd: python detect_new.py --weights yolov5n.onnx
+    outs:
+    - path: detect_info.json
+      md5: cd630e26f82b665ced28b67993920221
+      size: 111
