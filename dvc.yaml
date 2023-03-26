@@ -5,6 +5,6 @@ stages:
     metrics:
     - new_timing_info.json
   detect:
-    cmd: python detect_new.py --weights  best.pt --source /content/drive/MyDrive/DPI/face_data
+    cmd: python detect_new.py --weights  best.pt --source /content/drive/MyDrive/DPI/images
     metrics:
     - detect_info.json
