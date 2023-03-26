@@ -1,9 +1,9 @@
 schema: '2.0'
 stages:
   train_file_new:
-    cmd: python train_file_new.py --img 640 --batch 16 --epochs 2 --data coco128.yaml
+    cmd: python train_file_new.py --img 640 --batch 16 --epochs 10 --data coco128.yaml
       --weights yolov5n.pt
     outs:
     - path: new_timing_info.json
-      md5: 6527c25ede96c8c471dc427d8cc7521e
-      size: 202
+      md5: fc6a30e16e40990418e56cfc24efa8a6
+      size: 201
